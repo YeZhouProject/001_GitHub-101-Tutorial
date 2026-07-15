@@ -1,53 +1,110 @@
-# GitHub 101 Tutorial
+# GitHub 101 Tutorial 🚀
 
-A beginner-friendly tutorial to learn Git and GitHub from zero.
+A beginner-friendly GitHub tutorial project designed for people who are new to Git, GitHub, Markdown, and version control workflows.
 
-## About This Project
+---
 
-This project is designed for complete beginners who want to understand how to use Git, GitHub, Visual Studio Code, and Markdown.
+## 📖 About This Project
 
-The goal is to build a practical learning path while creating a real GitHub project.
+This project provides a step-by-step learning path for beginners to understand:
 
-## Learning Goals
+- What Git is
+- How GitHub works
+- How to manage projects with Git
+- How to write technical documentation using Markdown
+- How to collaborate with others using GitHub
 
-By completing this tutorial, you will learn:
+The tutorial is designed from a complete beginner perspective.
 
-- What Git and GitHub are
-- How to install and configure Git
-- How to use Git with Visual Studio Code
-- How to create and manage repositories
-- How to write documentation with Markdown
-- How to collaborate using GitHub
-- How to publish a website with GitHub Pages
+---
 
-## Course Structure
+# 🎯 Learning Roadmap
 
-```
-docs/
-│
-├── 01-Introduction.md
-├── 02-Git-Installation.md
-├── 03-VSCode.md
-├── 04-Git-Basic.md
-├── 05-GitHub.md
-├── 06-Branch.md
-├── 07-Collaboration.md
-├── 08-GitHub-Pages.md
-└── 09-FAQ.md
-```
+## Chapter 01 — Introduction
 
-## Project Structure
+Learn the basic concepts:
 
-```
-GitHub-101-Tutorial
-│
+- What is Git?
+- What is GitHub?
+- Difference between Git and GitHub
+
+📄 [Read Chapter 01](docs/01-Introduction.md)
+
+---
+
+## Chapter 02 — Git Installation
+
+Learn how to:
+
+- Install Git
+- Configure Git
+- Verify installation
+
+📄 Coming soon
+
+---
+
+## Chapter 03 — VS Code Setup
+
+Learn how to:
+
+- Install VS Code
+- Configure Markdown tools
+- Use integrated terminal
+
+📄 Coming soon
+
+---
+
+# 🛠 Tools Used
+
+| Tool | Purpose |
+|---|---|
+| Git | Version control system |
+| GitHub | Repository hosting and collaboration platform |
+| VS Code | Code and document editing |
+| Markdown | Technical documentation format |
+
+---
+
+# 📂 Project Structure
+
+```text
+001_GitHub-101-Tutorial
+
 ├── README.md
-├── docs
-├── images
-├── assets
-└── examples
+
+└── docs
+
+    ├── 01-Introduction.md
+
+    ├── 02-Git-Installation.md
+
+    ├── 03-VSCode.md
+
+    ├── 04-Git-Basic.md
+
+    ├── 05-GitHub.md
+
+    ├── 06-Branch.md
+
+    ├── 07-Collaboration.md
+
+    ├── 08-GitHub-Pages.md
+
+    └── 09-FAQ.md
 ```
 
-## Author
+---
+
+# 👤 Author
 
 YeZhouProject
+
+---
+
+# 📌 Purpose
+
+This repository is created as a practical learning project to understand GitHub workflow and build a reusable technical documentation system.
+
+The goal is to create a beginner-friendly reference that can help new users learn Git, GitHub, Markdown, and collaborative workflows step by step.
