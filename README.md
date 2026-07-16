@@ -1,110 +1,151 @@
-# GitHub 101 Tutorial 🚀
+# GitHub 101 Tutorial
 
-A beginner-friendly GitHub tutorial project designed for people who are new to Git, GitHub, Markdown, and version control workflows.
+A beginner-friendly tutorial for learning GitHub from zero.
 
 ---
 
-## 📖 About This Project
+## About This Tutorial
 
-This project provides a step-by-step learning path for beginners to understand:
+GitHub 101 Tutorial is designed for beginners who have little or no previous experience with GitHub.
 
-- What Git is
+This tutorial helps you understand:
+
+- What GitHub is
 - How GitHub works
-- How to manage projects with Git
-- How to write technical documentation using Markdown
-- How to collaborate with others using GitHub
+- How to create your first repository
+- How to manage files and documents
+- How version control works
+- How to collaborate with others
 
-The tutorial is designed from a complete beginner perspective.
+The goal is not only to explain concepts, but also to guide you through real operations step by step.
 
 ---
 
-# 🎯 Learning Roadmap
+# Who Is This Tutorial For?
 
-## Chapter 01 — Introduction
+This tutorial is suitable for:
+
+- Students
+- Researchers
+- Designers
+- Developers who are new to GitHub
+- Anyone interested in learning digital project management
+
+No programming experience is required.
+
+---
+
+# Learning Path
+
+Follow the tutorial step by step.
+
+---
+
+## Step 1 — Understand GitHub
 
 Learn the basic concepts:
 
-- What is Git?
 - What is GitHub?
-- Difference between Git and GitHub
+- What is a repository?
+- What are Git, commits, and branches?
 
-📄 [Read Chapter 01](docs/01-Introduction.md)
+Start here:
+
+`docs/01-what-is-github.md`
 
 ---
 
-## Chapter 02 — Git Installation
+## Step 2 — Create Your First GitHub Project
 
 Learn how to:
 
-- Install Git
-- Configure Git
-- Verify installation
-
-📄 Coming soon
-
----
-
-## Chapter 03 — VS Code Setup
-
-Learn how to:
-
-- Install VS Code
-- Configure Markdown tools
-- Use integrated terminal
-
-📄 Coming soon
+- Create a GitHub account
+- Create a repository
+- Add files
+- Write your first README
 
 ---
 
-# 🛠 Tools Used
+## Step 3 — Learn Basic Workflow
 
-| Tool | Purpose |
-|---|---|
-| Git | Version control system |
-| GitHub | Repository hosting and collaboration platform |
-| VS Code | Code and document editing |
-| Markdown | Technical documentation format |
+Understand:
 
----
-
-# 📂 Project Structure
-
-```text
-001_GitHub-101-Tutorial
-
-├── README.md
-
-└── docs
-
-    ├── 01-Introduction.md
-
-    ├── 02-Git-Installation.md
-
-    ├── 03-VSCode.md
-
-    ├── 04-Git-Basic.md
-
-    ├── 05-GitHub.md
-
-    ├── 06-Branch.md
-
-    ├── 07-Collaboration.md
-
-    ├── 08-GitHub-Pages.md
-
-    └── 09-FAQ.md
-```
+- File organization
+- Markdown writing
+- Commit history
+- Version management
 
 ---
 
-# 👤 Author
+## Step 4 — Collaborate and Publish
 
-YeZhouProject
+Learn:
+
+- Branches
+- Pull requests
+- Collaboration workflow
+- GitHub Pages
 
 ---
 
-# 📌 Purpose
+# Repository Structure
 
-This repository is created as a practical learning project to understand GitHub workflow and build a reusable technical documentation system.
+The current repository structure:
 
-The goal is to create a beginner-friendly reference that can help new users learn Git, GitHub, Markdown, and collaborative workflows step by step.
+    001_GitHub-101-Tutorial
+
+    ├── README.md
+    │
+    ├── docs/
+    │   └── Tutorial documents
+    │
+    ├── images/
+    │   └── Tutorial screenshots
+    │
+    ├── examples/
+    │   └── Example projects
+    │
+    └── scripts/
+        └── Optional automation tools
+
+---
+
+# How To Use This Tutorial
+
+Recommended learning method:
+
+1. Read each chapter in `docs/`
+2. Follow the operation steps
+3. Create your own GitHub repository
+4. Practice the workflow yourself
+5. Modify and experiment
+
+The best way to learn GitHub is by using GitHub.
+
+---
+
+# Current Status
+
+Version: 0.1
+
+Status:
+
+🚧 Tutorial framework under construction
+
+---
+
+# Future Development
+
+Planned improvements:
+
+- More beginner tutorials
+- More screenshots
+- Practical examples
+- GitHub Pages version
+- Community feedback improvements
+
+---
+
+# License
+
+This project is licensed under the MIT License.
