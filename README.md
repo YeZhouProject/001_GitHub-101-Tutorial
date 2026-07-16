@@ -1,148 +1,256 @@
 # GitHub 101 Tutorial
 
-A beginner-friendly tutorial for learning GitHub from zero.
+A beginner-friendly tutorial for learning Git, GitHub, and modern project workflows.
 
----
+This project is designed to help beginners understand:
 
-## About This Tutorial
+* What Git is
+* What GitHub is
+* How to manage projects with Git
+* How to collaborate using GitHub
+* How to publish projects online
 
-GitHub 101 Tutorial is designed for beginners who have little or no previous experience with GitHub.
-
-This tutorial helps you understand:
-
-- What GitHub is
-- How GitHub works
-- How to create your first repository
-- How to manage files and documents
-- How version control works
-- How to collaborate with others
-
-The goal is not only to explain concepts, but also to guide you through real operations step by step.
-
----
-
-# Who Is This Tutorial For?
-
-This tutorial is suitable for:
-
-- Students
-- Researchers
-- Designers
-- Developers who are new to GitHub
-- Anyone interested in learning digital project management
-
-No programming experience is required.
+The goal is not only to learn commands, but also to build a complete professional workflow.
 
 ---
 
 # Learning Path
 
-Follow the tutorial step by step.
+The tutorial follows a step-by-step learning path:
+
+```
+Computer Environment
+
+        ↓
+
+VS Code
+
+        ↓
+
+Git Basics
+
+        ↓
+
+GitHub
+
+        ↓
+
+Branch & Collaboration
+
+        ↓
+
+GitHub Pages
+
+        ↓
+
+Project Publishing
+```
 
 ---
 
-## Step 1 — Understand GitHub
+# Documentation
 
-Learn the basic concepts:
+## Chapter 01 — Introduction
 
-- What is GitHub?
-- What is a repository?
-- What are Git, commits, and branches?
+Introduction to Git and GitHub.
 
-Start here:
+Topics:
 
-`docs/01-what-is-github.md`
+* What is Git?
+* What is GitHub?
+* Why learn GitHub?
+* Learning roadmap
 
----
-
-## Step 2 — Create Your First GitHub Project
-
-Learn how to:
-
-- Create a GitHub account
-- Create a repository
-- Add files
-- Write your first README
+📄 [01-Introduction](docs/01-Introduction.md)
 
 ---
 
-## Step 3 — Learn Basic Workflow
+## Chapter 02 — Git Installation
 
-Understand:
+Prepare the local Git environment.
 
-- File organization
-- Markdown writing
-- Commit history
-- Version management
+Topics:
 
----
+* Installing Git
+* Checking Git installation
+* Basic configuration
 
-## Step 4 — Collaborate and Publish
-
-Learn:
-
-- Branches
-- Pull requests
-- Collaboration workflow
-- GitHub Pages
+📄 [02-Git-Installation](docs/02-Git-Installation.md)
 
 ---
 
-# Repository Structure
+## Chapter 03 — VS Code
 
-The current repository structure:
+Learn the recommended editing environment.
 
-    001_GitHub-101-Tutorial
+Topics:
 
-    ├── README.md
-    │
-    ├── docs/
-    │   └── Tutorial documents
-    │
-    ├── images/
-    │   └── Tutorial screenshots
-    │
-    ├── examples/
-    │   └── Example projects
-    │
-    └── scripts/
-        └── Optional automation tools
+* Installing VS Code
+* Interface introduction
+* Editing Markdown files
+* Project management
+
+📄 [03-VSCode](docs/03-VSCode.md)
 
 ---
 
-# How To Use This Tutorial
+## Chapter 04 — Git Basic Concepts
 
-Recommended learning method:
+Understand how Git works.
 
-1. Read each chapter in `docs/`
-2. Follow the operation steps
-3. Create your own GitHub repository
-4. Practice the workflow yourself
-5. Modify and experiment
+Topics:
 
-The best way to learn GitHub is by using GitHub.
+* Working Directory
+* Staging Area
+* Repository
+* Commit workflow
+* Git history
 
----
-
-# Current Status
-
-Version: 0.1
-
-Status:
-
-🚧 Tutorial framework under construction
+📄 [04-Git-Basic](docs/04-Git-Basic.md)
 
 ---
 
-# Future Development
+## Chapter 05 — GitHub
 
-Planned improvements:
+Connect local projects with GitHub.
 
-- More beginner tutorials
-- More screenshots
-- Practical examples
-- GitHub Pages version
-- Community feedback improvements
+Topics:
+
+* Creating a GitHub account
+* Repository concepts
+* Local vs Remote repository
+* Push and Pull
+
+📄 [05-GitHub](docs/05-GitHub.md)
+
+---
+
+## Chapter 06 — Branch
+
+Learn how Git manages different development paths.
+
+Topics:
+
+* Main branch
+* Creating branches
+* Switching branches
+* Merge workflow
+
+📄 [06-Branch](docs/06-Branch.md)
+
+---
+
+## Chapter 07 — Collaboration
+
+Learn teamwork workflows.
+
+Topics:
+
+* Fork
+* Clone
+* Pull Request
+* Issues
+* Code Review
+
+📄 [07-Collaboration](docs/07-Collaboration.md)
+
+---
+
+## Chapter 08 — GitHub Pages
+
+Publish projects as websites.
+
+Topics:
+
+* What is GitHub Pages?
+* Website publishing
+* Documentation websites
+* Project showcase
+
+📄 [08-GitHub-Pages](docs/08-GitHub-Pages.md)
+
+---
+
+## Chapter 09 — FAQ
+
+Common questions and practical tips.
+
+Topics:
+
+* Git vs GitHub
+* Markdown Preview
+* Commit messages
+* Common errors
+
+📄 [09-FAQ](docs/09-FAQ.md)
+
+---
+
+# Project Structure
+
+```
+.
+├── README.md
+│
+└── docs
+    ├── 01-Introduction.md
+    ├── 02-Git-Installation.md
+    ├── 03-VSCode.md
+    ├── 04-Git-Basic.md
+    ├── 05-GitHub.md
+    ├── 06-Branch.md
+    ├── 07-Collaboration.md
+    ├── 08-GitHub-Pages.md
+    └── 09-FAQ.md
+```
+
+---
+
+# Learning Workflow
+
+Recommended workflow while using this tutorial:
+
+```
+Read Documentation
+
+        ↓
+
+Practice Commands
+
+        ↓
+
+Create Your Own Project
+
+        ↓
+
+Commit Changes
+
+        ↓
+
+Publish Online
+```
+
+---
+
+# Website
+
+This tutorial will be published as a GitHub Pages website.
+
+Website:
+
+Coming soon.
+
+---
+
+# Contribution
+
+Suggestions and improvements are welcome.
+
+You can:
+
+* Report problems
+* Suggest improvements
+* Submit changes
 
 ---
 
