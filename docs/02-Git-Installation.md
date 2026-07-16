@@ -1,185 +1,162 @@
-# Create a GitHub Account
+# Git Installation
 
-## Introduction
+## What is Git?
 
-Before using GitHub, you need to create a personal account.
+Git is a distributed version control system that helps users manage changes in their projects.
 
-A GitHub account allows you to:
+Before using GitHub, it is important to understand that Git works on your local computer.
 
-- Create and manage repositories
-- Store your projects online
-- Follow other projects
-- Collaborate with other people
-- Build your personal profile
+Git allows you to:
 
-Creating an account is the first step to becoming a GitHub user.
+- Track changes in files
+- Save versions of a project
+- Compare different versions
+- Restore previous versions
+- Prepare projects for collaboration
 
----
-
-# Step 1 — Visit GitHub Website
-
-Open the official GitHub website:
-
-https://github.com/
-
-On the homepage, click:
-
-Sign up
-
-to create a new account.
+Git is the foundation of the GitHub workflow.
 
 ---
 
-# Step 2 — Choose Your Email Address
+## Why Install Git?
 
-GitHub requires an email address for registration.
+GitHub is built around Git.
 
-Recommended:
+Although GitHub provides online repositories and collaboration tools, the actual version control system is Git.
 
-- Use an email address you check regularly
-- Use an email address you can access for many years
-- Avoid temporary email addresses
+A common workflow is:
 
-Your email will be used for:
+```
+Create files on your computer
 
-- Account verification
-- Security notifications
-- Password recovery
+        ↓
+
+Use Git to record changes
+
+        ↓
+
+Upload the project to GitHub
+```
+
+Therefore, installing Git is the first technical step before working with GitHub.
 
 ---
 
-# Step 3 — Choose Your Username
+## Installing Git
 
-Your username is your public identity on GitHub.
+### Windows
+
+For Windows users:
+
+1. Visit the official Git website.
+2. Download the latest Git installer.
+3. Run the installer.
+4. Keep the default settings unless you have specific requirements.
+5. Complete the installation.
+
+After installation, Git can be used through:
+
+- Git Bash
+- Command Prompt
+- PowerShell
+- VS Code Terminal
+
+---
+
+### macOS
+
+For macOS users, Git can be installed in several ways.
+
+Common methods:
+
+- Install through Xcode Command Line Tools
+- Install through Homebrew
+- Download the official installer
+
+After installation, Git can be accessed through Terminal.
+
+---
+
+## Checking Git Installation
+
+After installation, open a terminal.
+
+Run:
+
+```
+git --version
+```
+
+If Git is installed successfully, you will see a version number.
 
 Example:
 
-github.com/your-username
+```
+git version 2.xx.x
+```
 
-A good username should be:
-
-- Easy to remember
-- Professional
-- Suitable for long-term use
-
-Think carefully before choosing it because it may become part of your public project links.
-
-Examples:
-
-Good:
-
-- firstname-lastname
-- professional-name
-- personal-brand-name
-
-Avoid:
-
-- temporary names
-- random numbers
-- names you may not want to use publicly
+This means Git is ready to use.
 
 ---
 
-# Step 4 — Create Your Password
+## Basic Git Configuration
 
-Choose a secure password.
+Before creating projects, Git needs basic user information.
 
-A good password should include:
+Configure your name:
 
-- Enough length
-- Different types of characters
-- Unique password that is not reused elsewhere
+```
+git config --global user.name "Your Name"
+```
 
-Do not share your password with others.
+Configure your email:
 
----
+```
+git config --global user.email "your_email@example.com"
+```
 
-# Step 5 — Verify Your Email
+These settings help Git identify who created each change.
 
-After registration:
+You can check your configuration with:
 
-1. Open your email inbox
-2. Find the GitHub verification email
-3. Click the verification link
-
-Email verification is important because it enables:
-
-- Creating repositories
-- Receiving notifications
-- Recovering your account
+```
+git config --list
+```
 
 ---
 
-# Step 6 — Basic Profile Setup
+## Understanding Local Git
 
-After creating your account, you can complete your profile.
-
-Recommended settings:
-
-## Profile Picture
-
-Adding a profile picture helps others recognize you.
-
-## Name
-
-Use a name you are comfortable displaying publicly.
-
-## Bio
-
-A short introduction can help others understand your interests.
+At this stage, Git exists only on your computer.
 
 Example:
 
-"Learning GitHub and digital project management."
+```
+Your Computer
+
+Project Folder
+
+      |
+      |
+      Git
+
+Version History
+```
+
+Nothing has been uploaded to GitHub yet.
+
+The connection between Git and GitHub will be introduced later.
 
 ---
 
-# Security Recommendation
+## Summary
 
-After creating your account, enable:
+In this chapter, you learned:
 
-Two-factor authentication (2FA)
+- What Git is
+- Why Git is needed before using GitHub
+- How to install Git
+- How to check Git installation
+- How to configure your Git identity
 
-Two-factor authentication adds an additional security step when logging in.
-
-It helps protect your account even if your password is compromised.
-
----
-
-# Common Questions
-
-## Do I need programming experience?
-
-No.
-
-GitHub can be used by anyone who wants to manage projects and collaborate with others.
-
----
-
-## Is GitHub free?
-
-Yes.
-
-GitHub provides free accounts with many features suitable for personal learning and open-source projects.
-
----
-
-## Should I use my real name?
-
-It depends on your purpose.
-
-For professional, academic, or public projects, using a recognizable name is often helpful.
-
-For private learning projects, you can choose a username that you prefer.
-
----
-
-# Next Step
-
-Now that you have a GitHub account, the next step is learning:
-
-How to create your first repository.
-
-Continue:
-
-03-create-repository.md
+In the next chapter, you will learn how to use VS Code as your project editing environment.
