@@ -1,119 +1,117 @@
-# What is GitHub?
+# Introduction to Git and GitHub
 
-## Introduction
+## Welcome
 
-GitHub is an online platform that helps people store, manage, and collaborate on digital projects.
+Welcome to the GitHub 101 Tutorial.
 
-Many people think GitHub is only for programmers, but GitHub can be useful for anyone who needs to organize files, track changes, and work with others.
+This tutorial is designed for beginners who want to understand how Git and GitHub work and how they can be used in real projects.
+
+The goal is not only to learn commands, but also to understand a complete workflow for creating, managing, and sharing projects.
 
 ---
 
-## Why Do We Need GitHub?
+## What is Git?
 
-When working on a project, we often face problems:
+Git is a distributed version control system.
 
-- Which file is the latest version?
-- Who changed this document?
-- Can we recover an older version?
-- How can multiple people work together?
+It helps users:
 
-GitHub helps solve these problems by recording project history and managing changes.
+- Track changes in files
+- Save different versions of a project
+- Return to previous versions
+- Work on projects with others
+
+Instead of saving many copies of files:
+
+```
+Project_v1
+Project_v2
+Project_final
+Project_final_final
+```
+
+Git records the history automatically.
+
+---
+
+## What is GitHub?
+
+GitHub is an online platform built around Git.
+
+It allows users to:
+
+- Store Git repositories online
+- Share projects
+- Collaborate with others
+- Review changes
+- Publish projects
+
+A Git project can exist on your computer, while GitHub provides a place to store and collaborate online.
 
 ---
 
 ## Git vs GitHub
 
-Git and GitHub are related, but they are different.
-
-### Git
-
-Git is a version control system.
-
-It helps you:
-
-- Record changes
-- Save different versions
-- Compare modifications
-- Restore previous states
-
-Git works on your own computer.
-
----
-
-### GitHub
-
-GitHub is an online service based on Git.
-
-It allows you to:
-
-- Store Git repositories online
-- Share projects with others
-- Collaborate with teammates
-- Publish project information
-
-A simple comparison:
+Git and GitHub are related but different.
 
 | Git | GitHub |
 |---|---|
-| A version control tool | An online platform |
-| Works locally | Works online |
-| Tracks changes | Hosts and shares projects |
+| A version control tool | An online collaboration platform |
+| Runs on your computer | Runs on the internet |
+| Manages project history | Hosts and shares repositories |
+| Works without internet | Usually used for online collaboration |
+
+A simple example:
+
+```
+Your Computer
+
+Project Files
+      |
+      | Git
+      |
+Version History
+
+
+GitHub
+
+Online Repository
+      |
+      |
+Collaboration and Sharing
+```
 
 ---
 
-## What Is a Repository?
+## Why Learn GitHub?
 
-A repository (or repo) is a project space on GitHub.
+Git and GitHub are widely used in:
 
-It contains:
+- Software development
+- Data science
+- Artificial intelligence
+- Research projects
+- Open-source communities
+- Design and architecture workflows
 
-- Project files
-- Documentation
-- Images
-- Code
-- Change history
+Learning GitHub helps you build professional working habits:
 
-A repository is similar to a project folder, but with additional version control features.
-
----
-
-## Example
-
-A normal computer folder:
-
-    My Project
-
-    ├── report.docx
-    ├── image.png
-    └── notes.txt
-
-
-A GitHub repository:
-
-    My Project Repository
-
-    ├── report.docx
-    ├── image.png
-    ├── notes.txt
-    │
-    └── History
-        ├── Version 1
-        ├── Version 2
-        └── Version 3
-
-
-GitHub remembers how the project changed over time.
+- Organizing projects
+- Recording progress
+- Sharing knowledge
+- Collaborating with others
 
 ---
 
-## What Will You Learn Next?
+## What You Will Learn
 
-In the next chapter, you will learn:
+In this tutorial, you will learn:
 
-- How to create a GitHub account
-- How to set up your first GitHub profile
-- How to prepare for creating your first repository
+1. How to install Git
+2. How to use VS Code
+3. How Git manages project versions
+4. How to create and manage GitHub repositories
+5. How to collaborate using branches and pull requests
+6. How to publish projects with GitHub Pages
 
-Next:
-
-[Create a GitHub Account](02-create-account.md)
+By the end of this tutorial, you will understand a complete GitHub workflow from creating a project to sharing it online.
