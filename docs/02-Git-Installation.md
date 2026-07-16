@@ -42,17 +42,43 @@ Therefore, installing Git is the first technical step before working with GitHub
 
 ---
 
-## Installing Git
+# Installing Git
 
-### Windows
+## Official Git Website
+
+Git can be downloaded from the official Git website:
+
+[Git Official Website](https://git-scm.com/)
+
+Download page:
+
+[Download Git](https://git-scm.com/downloads)
+
+Always download Git from the official source to ensure security and reliability.
+
+---
+
+## Windows Installation
 
 For Windows users:
 
-1. Visit the official Git website.
-2. Download the latest Git installer.
-3. Run the installer.
-4. Keep the default settings unless you have specific requirements.
-5. Complete the installation.
+### Step 1: Download Git for Windows
+
+Open the official download page:
+
+[Git for Windows](https://git-scm.com/download/win)
+
+Download the installer and run the installation program.
+
+---
+
+### Step 2: Install Git
+
+During installation:
+
+- Keep the default settings if you are not sure
+- Allow Git to install Git Bash
+- Allow Git to be added to the system PATH
 
 After installation, Git can be used through:
 
@@ -63,23 +89,59 @@ After installation, Git can be used through:
 
 ---
 
-### macOS
+## macOS Installation
 
 For macOS users, Git can be installed in several ways.
 
-Common methods:
+### Method 1: Official Installer
 
-- Install through Xcode Command Line Tools
-- Install through Homebrew
-- Download the official installer
+Visit the official Git download page:
 
-After installation, Git can be accessed through Terminal.
+[Git Downloads](https://git-scm.com/downloads)
+
+Download and install the macOS version.
 
 ---
 
-## Checking Git Installation
+### Method 2: Homebrew
+
+If you use Homebrew, you can install Git with:
+
+```
+brew install git
+```
+
+Homebrew official website:
+
+[Homebrew](https://brew.sh/)
+
+---
+
+## Linux Installation
+
+For Linux users, Git can usually be installed through the system package manager.
+
+Example:
+
+Ubuntu / Debian:
+
+```
+sudo apt install git
+```
+
+Other Linux distributions may use different package managers.
+
+---
+
+# Checking Git Installation
 
 After installation, open a terminal.
+
+You can use:
+
+- Git Bash (Windows)
+- Terminal (macOS/Linux)
+- VS Code Terminal
 
 Run:
 
@@ -99,7 +161,7 @@ This means Git is ready to use.
 
 ---
 
-## Basic Git Configuration
+# Basic Git Configuration
 
 Before creating projects, Git needs basic user information.
 
@@ -125,7 +187,31 @@ git config --list
 
 ---
 
-## Understanding Local Git
+## Why Configure Your Identity?
+
+Every Git commit stores information about:
+
+- Who created the change
+- When the change happened
+- What was changed
+
+Example:
+
+```
+Commit
+
+Author: Your Name
+Date: Today
+
+Changed files:
+README.md
+```
+
+This becomes important when working with others.
+
+---
+
+# Understanding Local Git
 
 At this stage, Git exists only on your computer.
 
@@ -149,13 +235,34 @@ The connection between Git and GitHub will be introduced later.
 
 ---
 
-## Summary
+# Useful Links
+
+## Git Resources
+
+- Git Official Website  
+  https://git-scm.com/
+
+- Git Download Page  
+  https://git-scm.com/downloads
+
+- Git Documentation  
+  https://git-scm.com/doc
+
+## Additional Tools
+
+- Homebrew (macOS package manager)  
+  https://brew.sh/
+
+---
+
+# Summary
 
 In this chapter, you learned:
 
 - What Git is
 - Why Git is needed before using GitHub
 - How to install Git
+- Where to download Git safely
 - How to check Git installation
 - How to configure your Git identity
 
