@@ -203,3 +203,53 @@ Instead, it should help you:
 Technology will continue to evolve.
 
 Learning how to learn is one of the most valuable skills you can develop.
+
+# A Real Example
+
+This GitHub tutorial itself was created using the workflow described above.
+
+Instead of generating the entire tutorial at once, the project was developed incrementally.
+
+The workflow looked like this:
+
+Define the Goal
+
+↓
+
+Create the Repository
+
+↓
+
+Install Git
+
+↓
+
+Install VS Code
+
+↓
+
+Learn Git Basics
+
+↓
+
+Build Documentation
+
+↓
+
+Publish to GitHub
+
+↓
+
+Publish with GitHub Pages
+
+↓
+
+Review and Improve
+
+Every chapter was completed before moving to the next one.
+
+Every important decision was documented.
+
+Every mistake became part of the FAQ.
+
+This project demonstrates that AI can support project-based learning while keeping the learner actively involved in every step.
