@@ -248,7 +248,14 @@ fix: Bug correction
 
 style: Formatting changes
 ```
+## Why is my default branch "master" instead of "main"?
 
+Modern Git projects generally use **main** as the default branch.
+
+To configure Git globally:
+
+```powershell
+git config --global init.defaultBranch main
 ---
 
 # VS Code Workflow
